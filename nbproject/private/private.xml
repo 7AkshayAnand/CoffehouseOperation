@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-private xmlns="http://www.netbeans.org/ns/project-private/1">
+    <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
+    <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
+        <group>
+            <file>file:/C:/Users/DELL/Documents/NetBeansProjects/Coffeehouse_Operation/src/coffeehouse_operation/SignUp1.java</file>
+            <file>file:/C:/Users/DELL/Documents/NetBeansProjects/Coffeehouse_Operation/src/coffeehouse_operation/ChangePassword.java</file>
+            <file>file:/C:/Users/DELL/Documents/NetBeansProjects/Coffeehouse_Operation/src/coffeehouse_operation/ManageCategory.java</file>
+            <file>file:/C:/Users/DELL/Documents/NetBeansProjects/Coffeehouse_Operation/src/coffeehouse_operation/ViewBillsOrderPlacedDetails.java</file>
+            <file>file:/C:/Users/DELL/Documents/NetBeansProjects/Coffeehouse_Operation/src/coffeehouse_operation/Home.java</file>
+            <file>file:/C:/Users/DELL/Documents/NetBeansProjects/Coffeehouse_Operation/src/dao/BillDao.java</file>
+            <file>file:/C:/Users/DELL/Documents/NetBeansProjects/Coffeehouse_Operation/src/dao/CategoryDao.java</file>
+            <file>file:/C:/Users/DELL/Documents/NetBeansProjects/Coffeehouse_Operation/src/dao/ProductDao.java</file>
+            <file>file:/C:/Users/DELL/Documents/NetBeansProjects/Coffeehouse_Operation/src/model/Product.java</file>
+            <file>file:/C:/Users/DELL/Documents/NetBeansProjects/Coffeehouse_Operation/src/model/User.java</file>
+            <file>file:/C:/Users/DELL/Documents/NetBeansProjects/Coffeehouse_Operation/src/coffeehouse_operation/ForgotPassword.java</file>
+            <file>file:/C:/Users/DELL/Documents/NetBeansProjects/Coffeehouse_Operation/src/coffeehouse_operation/ViewEditDeleteProduct.java</file>
+            <file>file:/C:/Users/DELL/Documents/NetBeansProjects/Coffeehouse_Operation/src/Common/OpenPdf.java</file>
+            <file>file:/C:/Users/DELL/Documents/NetBeansProjects/Coffeehouse_Operation/src/dao/ConnectionProvider.java</file>
+            <file>file:/C:/Users/DELL/Documents/NetBeansProjects/Coffeehouse_Operation/src/dao/UserDao.java</file>
+            <file>file:/C:/Users/DELL/Documents/NetBeansProjects/Coffeehouse_Operation/src/dao/tables.java</file>
+            <file>file:/C:/Users/DELL/Documents/NetBeansProjects/Coffeehouse_Operation/src/model/Category.java</file>
+            <file>file:/C:/Users/DELL/Documents/NetBeansProjects/Coffeehouse_Operation/src/coffeehouse_operation/Coffeehouse_Operation.java</file>
+            <file>file:/C:/Users/DELL/Documents/NetBeansProjects/Coffeehouse_Operation/src/coffeehouse_operation/Login.java</file>
+            <file>file:/C:/Users/DELL/Documents/NetBeansProjects/Coffeehouse_Operation/src/coffeehouse_operation/PlaceOrder.java</file>
+            <file>file:/C:/Users/DELL/Documents/NetBeansProjects/Coffeehouse_Operation/src/coffeehouse_operation/VerifyUsers.java</file>
+            <file>file:/C:/Users/DELL/Documents/NetBeansProjects/Coffeehouse_Operation/src/coffeehouse_operation/AddNewProduct.java</file>
+            <file>file:/C:/Users/DELL/Documents/NetBeansProjects/Coffeehouse_Operation/src/dao/DbOperations.java</file>
+        </group>
+    </open-files>
+</project-private>
