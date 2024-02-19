@@ -100,6 +100,11 @@ public class Home extends javax.swing.JFrame {
         jButton5.setFont(new java.awt.Font("Tahoma", 1, 14)); // NOI18N
         jButton5.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/change Security Question.png"))); // NOI18N
         jButton5.setText("Change Security Question");
+        jButton5.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton5ActionPerformed(evt);
+            }
+        });
         getContentPane().add(jButton5, new org.netbeans.lib.awtextra.AbsoluteConstraints(960, 10, -1, -1));
 
         jButton6.setFont(new java.awt.Font("Tahoma", 1, 14)); // NOI18N
@@ -213,6 +218,11 @@ public class Home extends javax.swing.JFrame {
       new ChangePassword(email).setVisible(true);
         // TODO add your handling code here:
     }//GEN-LAST:event_jButton4ActionPerformed
+
+    private void jButton5ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton5ActionPerformed
+     new ChangeSecurityQuestion(email).setVisible(true);
+        // TODO add your handling code here:
+    }//GEN-LAST:event_jButton5ActionPerformed
 
     /**
      * @param args the command line arguments
