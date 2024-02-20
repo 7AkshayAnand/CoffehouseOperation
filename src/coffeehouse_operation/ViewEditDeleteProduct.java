@@ -30,7 +30,7 @@ public class ViewEditDeleteProduct extends javax.swing.JFrame {
         String name = txtName.getText();
         String price = txtPrice.getText();
         String category = (String) jComboBox1.getSelectedItem();
-        if (!name.equals("") && !price.equals("") && category != null) {
+        if (!name.equals("") && !price.equals("") && category != null && price.matches("\\d+")) {
             btnUpdate.setEnabled(true);
         } else {
             btnUpdate.setEnabled(false);

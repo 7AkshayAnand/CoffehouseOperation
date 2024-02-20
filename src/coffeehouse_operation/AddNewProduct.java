@@ -24,7 +24,7 @@ public class AddNewProduct extends javax.swing.JFrame {
     public void validateFields(){
         String name=txtName.getText();
         String price=txtPrice.getText();
-        if(!name.equals("") && !price.equals("")){
+        if(!name.equals("") && !price.equals("") && price.matches("\\d+")){
             btnSave.setEnabled(true);
         }else{
             btnSave.setEnabled(false);

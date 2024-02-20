@@ -355,7 +355,7 @@ public class PlaceOrder extends javax.swing.JFrame {
 
     private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton1ActionPerformed
         setVisible(false);
-        new Home().setVisible(true);
+        
         // TODO add your handling code here:
     }//GEN-LAST:event_jButton1ActionPerformed
 
@@ -443,7 +443,7 @@ public class PlaceOrder extends javax.swing.JFrame {
         String customerName = txtCustName.getText();
         String customerMobileNumber = txtCustMobileNo.getText();
         String customerEmail = txtCustEmail.getText();
-        SimpleDateFormat dformat = new SimpleDateFormat("dd-mm-yyyy");
+        SimpleDateFormat dformat = new SimpleDateFormat("dd-MM-yyyy");
         Date date = new Date();
         String todayDate = dformat.format(date);
         String total = String.valueOf(grandTotal);

@@ -25,6 +25,7 @@ public class ChangePassword extends javax.swing.JFrame {
         initComponents();
         userEmail=email;
         btnUpdate.setEnabled(false);
+     
         
     }
       public void validateField(){
@@ -107,12 +108,29 @@ public class ChangePassword extends javax.swing.JFrame {
             }
         });
         getContentPane().add(jButton3, new org.netbeans.lib.awtextra.AbsoluteConstraints(430, 270, -1, -1));
+
+        jPasswordField1.addKeyListener(new java.awt.event.KeyAdapter() {
+            public void keyReleased(java.awt.event.KeyEvent evt) {
+                jPasswordField1KeyReleased(evt);
+            }
+        });
         getContentPane().add(jPasswordField1, new org.netbeans.lib.awtextra.AbsoluteConstraints(270, 120, 240, -1));
+
+        jPasswordField2.addKeyListener(new java.awt.event.KeyAdapter() {
+            public void keyReleased(java.awt.event.KeyEvent evt) {
+                jPasswordField2KeyReleased(evt);
+            }
+        });
         getContentPane().add(jPasswordField2, new org.netbeans.lib.awtextra.AbsoluteConstraints(270, 170, 240, -1));
 
         jPasswordField3.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jPasswordField3ActionPerformed(evt);
+            }
+        });
+        jPasswordField3.addKeyListener(new java.awt.event.KeyAdapter() {
+            public void keyReleased(java.awt.event.KeyEvent evt) {
+                jPasswordField3KeyReleased(evt);
             }
         });
         getContentPane().add(jPasswordField3, new org.netbeans.lib.awtextra.AbsoluteConstraints(270, 220, 240, -1));
@@ -135,6 +153,7 @@ public class ChangePassword extends javax.swing.JFrame {
     private void btnUpdateActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnUpdateActionPerformed
        String oldPassword=jPasswordField1.getText();
           String newPassword=jPasswordField2.getText();
+          
           UserDao.changePassword(userEmail, oldPassword, newPassword);
           setVisible(false);
           new ChangePassword(userEmail).setVisible(true);
@@ -145,6 +164,21 @@ public class ChangePassword extends javax.swing.JFrame {
     private void jPasswordField3ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jPasswordField3ActionPerformed
         // TODO add your handling code here:
     }//GEN-LAST:event_jPasswordField3ActionPerformed
+
+    private void jPasswordField1KeyReleased(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_jPasswordField1KeyReleased
+     validateField();
+        // TODO add your handling code here:
+    }//GEN-LAST:event_jPasswordField1KeyReleased
+
+    private void jPasswordField2KeyReleased(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_jPasswordField2KeyReleased
+    validateField();
+        // TODO add your handling code here:
+    }//GEN-LAST:event_jPasswordField2KeyReleased
+
+    private void jPasswordField3KeyReleased(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_jPasswordField3KeyReleased
+    validateField();
+        // TODO add your handling code here:
+    }//GEN-LAST:event_jPasswordField3KeyReleased
 
     /**
      * @param args the command line arguments
